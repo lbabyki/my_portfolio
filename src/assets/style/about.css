@@ -1,0 +1,51 @@
+.about-block {
+  display: flex;
+  background-color: #191919;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+}
+.about-block img {
+  height: 500px;
+  width: 500px;
+  border-radius: 30px;
+  object-position: center;
+  object-fit: contain;
+}
+.about-infor {
+  color: white;
+}
+.about-infor h2 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.about-infor p {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300px;
+  color: #9b9b9f;
+}
+/* Responsive adjustments for .about-block */
+@media (max-width: 1024px) {
+  .about-block {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column; /* Chuyển đổi từ hàng sang cột trên màn hình nhỏ */
+    padding: 50px;
+  }
+
+  .about-block img {
+    margin-top: 30px;
+    width: 100%; /* Đảm bảo hình ảnh co dãn phù hợp */
+    height: auto;
+  }
+
+  .about-infor h2 {
+    font-size: 40px; /* Giảm kích thước tiêu đề */
+  }
+
+  .about-infor p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
