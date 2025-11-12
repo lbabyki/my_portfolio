@@ -8,7 +8,7 @@ const Pttkhdt = () => {
   return (
     <div className="pttkhdt-block">
       <a href={linkToggSite} className="link-to">
-        Link đến trang bài tập
+        Link đến trang Báo cáo
       </a>
     </div>
   );
