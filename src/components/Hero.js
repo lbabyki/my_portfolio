@@ -45,7 +45,7 @@ const Hero = ({ setCurrentPage, currentPage }) => {
         <h1>based in Việt Nam.</h1>
       </div>
       <div className="img">
-        <img src={imgbanner}></img>
+        <img src={imgbanner} alt="Hero banner"></img>
       </div>
       <Header setCurrentPage={setCurrentPage} currentPage={currentPage} />
     </div>
