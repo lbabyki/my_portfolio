@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/style/ContactForm.css";
-import myportrait from "../assets/img/mui2.jpg";
+import myportrait from "../assets/img/avartar.jpg";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
